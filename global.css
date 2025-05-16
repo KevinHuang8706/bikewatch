@@ -1,0 +1,46 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+}
+
+/* container for the filter + title */
+.time-filter {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+  
+  /* push the slider all the way to the right */
+  .filter-label {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9em;
+  }
+  
+  /* make the time and “any time” each sit on their own line */
+  #selected-time,
+  #any-time {
+    display: block;
+    margin-top: 0.25em;
+  }
+  
+  /* style “any time” to look like a helper state */
+  #any-time {
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* optional: widen the slider track */
+  #time-slider {
+    width: 200px;
+}
+  

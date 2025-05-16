@@ -1,2 +1,2 @@
-# bikewatch
-dsc106
+# dsc106_bikewatch
+dsc106_lab7
